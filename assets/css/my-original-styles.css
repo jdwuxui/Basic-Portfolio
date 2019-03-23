@@ -1,0 +1,115 @@
+body {
+  /* Margin bottom by footer height */
+  color: #474747;
+  background-color: #ffffff;
+  margin-bottom: auto;
+}
+  
+footer {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem; 
+  padding-top: 1rem;
+  border-top-style: solid;
+  border-top-color: #93a6b3;
+  border-top-width: 2px;
+  background-color: #efefef;
+} 
+
+.container-960max {
+    max-width: 980px; 
+    padding: 20px; 
+    margin: auto;
+    margin-top: 2rem;
+    scroll-margin-bottom: 30px;
+    overflow: auto;
+    }
+
+#bio-image {
+    margin-bottom: 2rem;
+}
+
+
+hr {
+    border-color: #dadada;
+}
+
+
+h1 {
+    color: #ffffff;
+}
+h2 {
+  text-align: center;
+}
+
+
+img .project-thumbnails { 
+    width: 100%;
+}
+
+
+.port-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+    float: left;
+    margin-right: 1rem;
+  }
+
+
+.label-centered {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    color: #ffffff;
+    background-color: #ffffff;
+    width: 100%;
+  }
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.jumbotron-fluid {
+  text-align: center;
+  color: white;
+  background-color: #000000;
+}
+
+#index-hero-image { 
+  height: 250px;
+  background-image: url(../images/hero-index-swan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#hero-h1 {
+  color: #ffffff;
+}
+
+#about-hero {
+  background-image: url(../images/About-Jared-Williams-Devloper-BG-Hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.display-4 {
+  vertical-align: center;
+}
+
